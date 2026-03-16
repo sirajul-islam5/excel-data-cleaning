@@ -5,25 +5,15 @@ Transformed complex, unformatted raw datasets into structured, accurate, and ana
 🎯 Objective
 Real-world data is messy. This project demonstrates the full data cleaning pipeline in Microsoft Excel — from identifying quality issues in raw data to delivering a structured, professional dataset ready for analysis and reporting.
 
-🔍 Before vs After
-Issue Found (Raw Data)
-Fix Applied (Cleaned Data)
-###### date display errors
-Corrected date formats and column structures
-ALL CAPS / inconsistent text casing
-Standardized using PROPER(), UPPER(), LOWER()
-#DIV/0! formula errors
-Identified and resolved division errors
-Combined Department & Region column
-Separated into individual fields using Text to Columns & Flash Fill
-Missing / NA values
-Handled and documented appropriately
-Duplicate records
-Identified and removed
-Inconsistent client names & contact details
-Normalized for uniform, professional reporting
-Unformatted currency fields
-Cleaned and standardized
+## 🔍 Before vs After
+- ✅ Date errors (######) → Corrected date formats
+- ✅ ALL CAPS text → Standardized using PROPER(), UPPER(), LOWER()
+- ✅ #DIV/0! errors → Identified and resolved
+- ✅ Combined Department & Region → Separated using Text to Columns & Flash Fill
+- ✅ Missing/NA values → Handled and documented
+- ✅ Duplicate records → Identified and removed
+- ✅ Inconsistent client names → Normalized for professional reporting
+- ✅ Unformatted currency → Cleaned and standardized 
 
 📁 File Structure
 📦 excel-data-cleaning
