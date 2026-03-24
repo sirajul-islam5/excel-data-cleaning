@@ -15,12 +15,6 @@ Real-world data is messy. This project demonstrates the full data cleaning pipel
 - ✅ Inconsistent client names → Normalized for professional reporting
 - ✅ Unformatted currency → Cleaned and standardized 
 
-**📁 File Structure:**
-📦 excel-data-cleaning
- ┣ 📊 raw_data.xlsx          ← Original unformatted dataset
- ┣ 📊 cleaned_data.xlsx      ← Final cleaned & structured dataset
- ┣ 🖼️ before_after.PNG       ← Visual comparison of raw vs cleaned data
- ┗ 📄 README.md
 
 **🛠️ Tools & Techniques Used:**
 - Microsoft Excel — Text Functions, Flash Fill, Text to Columns
